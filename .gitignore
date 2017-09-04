@@ -1,0 +1,11 @@
+#Ignored file formats
+*.sln
+*.suo
+*.config
+*.csproj
+*.pdb
+*.exe
+*.txt
+*.cache
+*.user
+*.manifest

@@ -5,8 +5,6 @@ using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode
-{
     class FizzBuzz
     {
         private static void Main(string[] args)
@@ -34,4 +32,3 @@ namespace LeetCode
             }
         }
     }
-}

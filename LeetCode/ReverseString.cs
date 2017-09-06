@@ -1,11 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode
-{
     class ReverseString
     {
         public string Reverse_String(string s)
@@ -20,4 +18,3 @@ namespace LeetCode
             return s;
         }
     }
-}

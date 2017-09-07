@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-    class ReverseString
+    public class ReverseString
     {
         public string Reverse_String(string s)
         {

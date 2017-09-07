@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Remoting.Services;
 using System.Text;
-using System.Threading.Tasks;
 
     class FizzBuzz
     {
@@ -27,8 +26,6 @@ using System.Threading.Tasks;
                 {
                     Console.WriteLine(i);
                 }
-
-
             }
         }
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-class MaxCount
+public class MaxCount
 {
     public static void Main(String[] args)
     {

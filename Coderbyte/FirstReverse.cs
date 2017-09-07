@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-    class FirstReverse
+    public class FirstReverse
     {
         static void Main(string[] args)
         {

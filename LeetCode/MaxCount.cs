@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LeetCode
-{
     class MaxCount
     {
-
         public static void Main(String[] args)
         {
             int[] nums = {2, 3, 4, 9, 5, 5, 8, 5, 0};
@@ -17,6 +13,7 @@ namespace LeetCode
 
         public static int FindMaxCount(int[] nums)
         {
+            
             Dictionary<int, int> _maxCount = new Dictionary<int, int>();
             int maxKeyCount = 0;
             int count = 0;
@@ -44,6 +41,6 @@ namespace LeetCode
             Console.WriteLine("Max Count: " + maxKeyCount);
             Console.WriteLine("Occurences: " + count);
             return maxKeyCount;
-        }
-    }
-}
+
+         }
+     }

@@ -21,7 +21,7 @@ namespace Coderbyte
         static void Main()
         {
             // keep this function call here
-            Console.WriteLine(FirstFactorial(Console.ReadLine()));
+            Console.WriteLine(FirstFactorial(Int32.Parse((Console.ReadLine()))));
         }
     }
 }

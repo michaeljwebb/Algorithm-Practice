@@ -276,3 +276,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+*.csproj
+LeetCode/App.config
+*.sln
+Coderbyte/App.config

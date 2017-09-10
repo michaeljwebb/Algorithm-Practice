@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Coderbyte
-{
     class MainClass
     {
         public static int FirstFactorial(int num)
@@ -24,4 +22,3 @@ namespace Coderbyte
             Console.WriteLine(FirstFactorial(Int32.Parse((Console.ReadLine()))));
         }
     }
-}

@@ -1,3 +1,4 @@
+//Given an array of integers find the sum of its elements.
 using System;
 using System.Collections.Generic;
 using System.IO;

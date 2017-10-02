@@ -2,7 +2,6 @@
 //For multiples of three output "Fizz"
 //For multiples of five output "Buzz"
 //For multiples of both three and five output "FizzBuzz"
-
 using System;
 using System.Collections.Generic;
 using System.Linq;

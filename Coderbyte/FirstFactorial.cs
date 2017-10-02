@@ -1,4 +1,5 @@
-﻿using System;
+//Take the num parameter being passed and return the factorial of it.﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

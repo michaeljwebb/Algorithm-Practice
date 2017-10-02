@@ -1,3 +1,4 @@
+//Take the input string and return it in reversed order.
 using System;
 using System.Collections.Generic;
 using System.Linq;

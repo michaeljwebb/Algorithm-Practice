@@ -1,3 +1,4 @@
+//Take the num parameter being passed and return the number of hours and minutes the parameter converts to.
 using System;
 
 class MainClass {

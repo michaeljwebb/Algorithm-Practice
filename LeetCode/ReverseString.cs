@@ -1,3 +1,4 @@
+//Write a function that inputs a string and returns the string in reverse.
 using System;
 using System.Collections.Generic;
 using System.Linq;

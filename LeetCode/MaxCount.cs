@@ -1,4 +1,5 @@
-﻿using System;
+//Find and keep a count of the most occuring number from a list of numbers.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

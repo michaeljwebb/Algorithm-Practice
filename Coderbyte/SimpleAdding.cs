@@ -1,3 +1,4 @@
+//Add up all the numbers from 1 to num.
 using System;
 
 class MainClass {
@@ -12,5 +13,4 @@ class MainClass {
     // keep this function call here
     Console.WriteLine(SimpleAdding(Console.ReadLine()));
   } 
-   
 } 

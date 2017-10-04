@@ -7,10 +7,10 @@ public class Palindrome
     public static void Main()
     {
         string testString = "racecar";
-        Palindrome(testString);
+        CheckPalindrome(testString);
     }
     
-    public static void Palindrome(string s){
+    public static void CheckPalindrome(string s){
         
         string result = "";
         char[] cArray = s.ToCharArray();

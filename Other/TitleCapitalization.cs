@@ -9,21 +9,21 @@ using System.Text;
 
 public class TitleCapitalization
 {
-  private List<string> lowerList = new List<string>
+  private static List<string> lowerList = new List<string>
                                         {
                                         "a","the","to","at","in","with","and","but","or"
                                         };
-	
-  public void Main(){
-  	string testTitle = "These are the days of our lives";
-  	TitleCase(testTitle);
-  	Console.WriteLine(TitleCase(testTitle));
+    
+  public static void Main(){
+      string testTitle = "These are the days of our lives";
+      TitleCase(testTitle);
+      Console.WriteLine(TitleCase(testTitle));
   }
 
-  public string TitleCase(string title){
+  public static string TitleCase(string title){
   //Lowercase title
   title = title.ToLower();
-	
+    
   //Split title by spaces
   var words = title.Split(' ');
 
@@ -31,15 +31,15 @@ public class TitleCapitalization
   for(int i = 0; i < words.Length; i++)
   {
     //If words are first or last word or are not in lowerList then capitalize word.
-	  if(i == 0 || i == words.Length - 1 || !lowerList.Contains(words[i])){
-		words[i] = Capitalize(words[i]);
-	  }
+      if(i == 0 || i == words.Length - 1 || !lowerList.Contains(words[i])){
+        words[i] = Capitalize(words[i]);
+      }
   }
   //Combine words
   return string.Join(" ", words);
   }
   
-  public string Capitalize(string word)
+  public static string Capitalize(string word)
   {
     word = char.ToUpper(word[0]) + word.Substring(1);
     return word;

@@ -11,7 +11,7 @@ public class Test
   }
   
   public static bool IsUnique(string s){
-    Dictionary<int,int> uni = new Dictionary<int,int>();
+    Dictionary<char,int> uni = new Dictionary<char,int>();
     
     foreach(char c in s){
       if(uni.ContainsKey(c)){

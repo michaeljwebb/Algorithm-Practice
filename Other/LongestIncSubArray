@@ -1,0 +1,33 @@
+//Count the longest increasing order of numbers from an array
+
+using System;
+public class Test
+{
+  public static void Main()
+  {
+    int[] arr = {8, 1, 5, 6, 7, 9, 0, 2};
+    Console.WriteLine(LongestIncSubArray(arr));
+  }
+  
+  public static int LongestIncSubArray(int[] arr){
+    int max = 1;
+    int count = 1;
+    
+    //if current element < next element, add to count
+    for(int i = 1; i<arr.Length - 1; i++){
+     if(arr[i] < arr[i+1]){
+       count++;
+     } 
+     else{
+      //if max < count, set max to count
+      if(max < count){
+        max = count;
+        
+      //reset count to 1
+      count = 1;
+      }
+     }
+    }
+    return max;
+  }
+}

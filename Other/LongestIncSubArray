@@ -5,7 +5,7 @@ public class Test
 {
   public static void Main()
   {
-    int[] arr = {8, 1, 5, 6, 7, 9, 0, 2};
+    int[] arr = {8, 1, 5, 6, 7, 9, 0, 9, 8, 5};
     Console.WriteLine(LongestIncSubArray(arr));
   }
   
@@ -13,11 +13,11 @@ public class Test
     int max = 1;
     int count = 1;
     
-    //if current element < next element, add to count
-    for(int i = 1; i<arr.Length - 1; i++){
-     if(arr[i] < arr[i+1]){
+    //if current element > prev element, add to count
+    for(int i = 1; i<arr.Length; i++){
+     if(arr[i] > arr[i-1]){
        count++;
-     } 
+     }
      else{
       //if max < count, set max to count
       if(max < count){
@@ -28,6 +28,9 @@ public class Test
       }
      }
     }
+    if(max < count){
+      max = count;
+  }
     return max;
   }
 }

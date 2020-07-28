@@ -1,0 +1,14 @@
+//From given input string "1234567890" sum the values from corresponding table:
+//1 = 4
+//2 = 2
+//3 = 3
+//4 = 5
+//5 = 8
+//6 = 6
+//7 = 7
+//8 = 9
+//9 = 9
+//0 = 2
+//
+// Example input: 1249
+//         output: 20
